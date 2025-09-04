@@ -1,0 +1,145 @@
+.issues-page-container {
+  padding: 2rem 0;
+  min-height: calc(100vh - 200px);
+}
+
+.issues-header {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.issues-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+/* Card Styles */
+.card {
+  border: none;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border: none;
+  padding: 1.5rem;
+}
+
+.card-header h5 {
+  margin: 0;
+  font-weight: 600;
+}
+
+.card-body {
+  padding: 2rem;
+}
+
+/* Form Styles */
+.form-label {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.form-control,
+.form-select {
+  border: 2px solid #e9ecef;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+  transition: all 0.3s ease;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #667eea;
+  box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+/* Button Styles */
+.btn {
+  border-radius: 8px;
+  padding: 0.75rem 1.5rem;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Pagination Styles */
+.pagination {
+  margin-bottom: 0;
+}
+
+.page-link {
+  border: none;
+  color: #667eea;
+  padding: 0.75rem 1rem;
+  margin: 0 0.25rem;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.page-link:hover {
+  background-color: #667eea;
+  color: white;
+  transform: translateY(-1px);
+}
+
+.page-item.active .page-link {
+  background-color: #667eea;
+  border-color: #667eea;
+}
+
+.page-item.disabled .page-link {
+  color: #6c757d;
+  background-color: transparent;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .issues-page-container {
+    padding: 1rem 0;
+  }
+  
+  .issues-title {
+    font-size: 2rem;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .row {
+    margin: 0;
+  }
+  
+  .col-md-4,
+  .col-md-3,
+  .col-md-2 {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .issues-header {
+    text-align: center;
+  }
+  
+  .issues-title {
+    font-size: 1.75rem;
+  }
+  
+  .btn {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+}

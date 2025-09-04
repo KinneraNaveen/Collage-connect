@@ -1,0 +1,47 @@
+# Copy this content to a new file named .env in the backend directory
+
+# Server Configuration
+PORT=5000
+NODE_ENV=development
+
+# Database Configuration
+MONGODB_URI=mongodb://localhost:27017/college-connect
+
+# JWT Configuration
+JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+JWT_EXPIRE=7d
+
+# CORS Configuration
+FRONTEND_URL=http://localhost:3000
+ALLOWED_ORIGINS=http://localhost:3000,http://localhost:3001
+
+# Security Configuration
+BCRYPT_ROUNDS=12
+RATE_LIMIT_WINDOW_MS=900000
+RATE_LIMIT_MAX_REQUESTS=100
+
+# Performance Configuration
+COMPRESSION_ENABLED=true
+HELMET_ENABLED=true
+CACHE_ENABLED=true
+CACHE_TTL=300
+
+# ML Service Configuration
+ML_ENABLED=true
+ML_CACHE_TTL=600
+ML_CONFIDENCE_THRESHOLD=0.7
+
+# Logging Configuration
+LOG_LEVEL=info
+LOG_FILE=./logs/app.log
+
+# Development Configuration
+DEBUG=true
+ENABLE_SWAGGER=true
+SWAGGER_URL=/api-docs
+
+# App Configuration
+APP_NAME=College Connect
+APP_VERSION=1.0.0
+SUPPORT_EMAIL=support@collegeconnect.com
+ADMIN_EMAIL=admin@collegeconnect.com
