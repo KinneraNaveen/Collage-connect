@@ -12,7 +12,7 @@ NODE_ENV=development
 
 ### **🗄️ Database Configuration**
 ```env
-MONGODB_URI=mongodb://localhost:27017/college-connect
+MONGODB_URI= mongodb+srv://kinneraravi07_db_user:RAVI@cluster0.4gqfugt.mongodb.net/college-connect?retryWrites=true&w=majority&appName=Cluster0
 ```
 
 ### **🔐 JWT Configuration**
