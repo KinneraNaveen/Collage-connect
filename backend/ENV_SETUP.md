@@ -17,14 +17,15 @@ MONGODB_URI= mongodb+srv://kinneraravi07_db_user:RAVI@cluster0.4gqfugt.mongodb.n
 
 ### **🔐 JWT Configuration**
 ```env
-JWT_SECRET=your-super-secret-jwt-key-change-this-in-production
+JWT_SECRET= zLiYaeqDLpPjq9IwxbcCdtDwuH1tr/8uYLU1iYNakXM=
 JWT_EXPIRE=7d
 ```
 
 ### **🌐 CORS Configuration**
 ```env
-FRONTEND_URL=http://localhost:3000
-ALLOWED_ORIGINS=http://localhost:3000,http://localhost:3001
+FRONTEND_URL=https://collage-connect-frontend.onrender.com
+ALLOWED_ORIGINS=https://collage-connect-frontend.onrender.com,http://localhost:3000,http://localhost:3001
+
 ```
 
 ### **🛡️ Security Configuration**
